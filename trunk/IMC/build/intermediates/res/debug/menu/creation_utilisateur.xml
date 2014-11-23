@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="projet.imc.CreationUtilisateur">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:menuCategory="system"
+        />
+    </menu>
+<!-- From: file:/C:/Users/Emeric/workspaceAn/IMC/res/menu/creation_utilisateur.xml -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ICM</string>
+    <string name="action_settings">Paramètre</string>
+    <string name="bonjour">Bienvenue</string>
+    <string name="poids">Poids : </string>
+    <string name="taille">Taille : </string>
+    <string name="sexe">Sexe : </string>
+    <string name="calculer">Calculer !</string>
+    <string name="homme">Homme</string>
+    <string name="femme">Femme</string>
+    <string name="calcul">Calcul</string>
+    <string name="calculation">Voici le calcul</string>
+    <string name="poids2">Votre indice est de : </string>
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="imc">Bienvenue sur l\'application IMC</string>
+    <string name="ajoutUtil">Créer</string>
+    <string name="connection">Connection</string>
+    <string name="title_activity_creation_utilisateur">Creation Utilisateur</string>
+    <string name="creation">Creation de compte</string>
+    <string name="nom">Nom : </string>
+    <string-array name="sex_array">
+        <item> </item>
+        <item>Homme</item>
+        <item>Femme</item>
+    </string-array>
+    <string name="enregistrement">Enregistrement</string>
+    <string name="textCalcul">Calculer votre IMC !</string>
+
+</resources>

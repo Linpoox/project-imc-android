@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="projet.imc.CreationUtilisateur">
+
+    <TextView
+        android:id="@+id/creaPseudo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:text="@string/nom"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textSexe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sexe"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/textTaille"
+        android:layout_alignEnd="@+id/textTaille" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="@string/creation"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/sexSpinner"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_toEndOf="@+id/textSexe"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textSexe" />
+
+    <EditText
+        android:id="@+id/textNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_toEndOf="@+id/textTaille"
+        android:layout_alignBottom="@+id/creaPseudo"
+        android:layout_toRightOf="@+id/textTaille"
+        android:layout_alignRight="@+id/editTextTaille"
+        android:layout_alignEnd="@+id/editTextTaille">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/creaEnreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="44dp"
+        android:text="@string/enregistrement" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Taille :"
+        android:id="@+id/textTaille"
+        android:layout_below="@+id/textNom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextTaille"
+        android:layout_alignRight="@+id/creaEnreg"
+        android:layout_alignEnd="@+id/creaEnreg"
+        android:layout_alignBottom="@+id/textTaille"
+        android:layout_alignLeft="@+id/sexSpinner"
+        android:layout_alignStart="@+id/sexSpinner"
+        android:inputType="numberDecimal"
+        android:imeOptions="actionDone"/>
+
+</RelativeLayout>
